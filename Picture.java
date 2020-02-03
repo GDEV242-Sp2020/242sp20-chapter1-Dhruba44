@@ -85,14 +85,7 @@ public class Picture
             riffle2.moveVertical(208);
             riffle2.changeSize(200);
             riffle2.makeVisible();
-            
-            bullet.changeColor("black");
-            bullet.moveHorizontal(330);
-            bullet.moveVertical(225);
-            bullet.changeSize(10);
-            bullet.makeVisible();
-            bullet.slowMoveHorizontal(-200);
-            
+                    
             man.changeColor("blue");
             man.changeSize(400,100);
             man.moveHorizontal(400);
@@ -117,7 +110,7 @@ public class Picture
             cap.changeColor("magenta");
             cap.makeVisible();   
             
-            grass.moveHorizontal(-400);
+            grass.moveHorizontal(-310);
             grass.moveVertical(430);
             grass.changeSize(1000);
             grass.changeColor("green");
@@ -134,6 +127,13 @@ public class Picture
             shrubs2.moveVertical(300);
             shrubs2.changeColor("green");
             shrubs2.makeVisible();
+            
+            bullet.changeColor("black");
+            bullet.moveHorizontal(330);
+            bullet.moveVertical(225);
+            bullet.changeSize(10);
+            bullet.makeVisible();
+            bullet.slowMoveHorizontal(-200);
                                     
         }
     }
